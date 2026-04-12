@@ -53,7 +53,7 @@ cat > "$APP_BUNDLE/Contents/Info.plist" <<PLIST
     <key>NSHighResolutionCapable</key>
     <true/>
     <key>NSHumanReadableCopyright</key>
-    <string>MIT License. https://github.com/YOUR_USERNAME/openclaw-controller</string>
+    <string>MIT License. https://github.com/eljazira/openclaw-controller</string>
 </dict>
 </plist>
 PLIST

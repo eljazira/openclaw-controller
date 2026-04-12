@@ -38,7 +38,7 @@ If you use OpenClaw, you know the loop: edit config, stop the gateway, delete se
 ### Option 1: One-liner
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/openclaw-controller/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/eljazira/openclaw-controller/main/install.sh | bash
 ```
 
 > After downloading, update the URL above with your actual GitHub username.
@@ -46,7 +46,7 @@ curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/openclaw-controller/m
 ### Option 2: Build from source
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/openclaw-controller.git
+git clone https://github.com/eljazira/openclaw-controller.git
 cd openclaw-controller
 ./build.sh
 open OpenClawController.app
@@ -54,7 +54,7 @@ open OpenClawController.app
 
 ### Option 3: Download from Releases
 
-Download the latest `.app.zip` from the [Releases](https://github.com/YOUR_USERNAME/openclaw-controller/releases) page, unzip, and drag to `/Applications`.
+Download the latest `.app.zip` from the [Releases](https://github.com/eljazira/openclaw-controller/releases) page, unzip, and drag to `/Applications`.
 
 ### Move to Applications (recommended)
 

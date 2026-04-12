@@ -6,7 +6,7 @@ set -euo pipefail
 
 APP_NAME="OpenClawController"
 DISPLAY_NAME="OpenClaw Controller"
-REPO_URL="${OPENCLAW_CONTROLLER_REPO:-https://github.com/YOUR_USERNAME/openclaw-controller.git}"
+REPO_URL="${OPENCLAW_CONTROLLER_REPO:-https://github.com/eljazira/openclaw-controller.git}"
 INSTALL_DIR="$HOME/.openclaw-controller-src"
 DEST="/Applications/$APP_NAME.app"
 
