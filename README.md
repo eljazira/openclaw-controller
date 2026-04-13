@@ -23,9 +23,9 @@ If you use OpenClaw, you know the loop: edit config, stop the gateway, delete se
 - **Settings** — change paths, switch agents, re-run setup anytime
 - **Native SwiftUI** — lightweight, fast, no Electron, no dependencies
 
-## Screenshots
+## Screenshot
 
-> **Coming soon.** To capture your own: launch the app, click the menu bar icon, press ⌘⇧4 and select the popover. For the main window, click "Open Window" first.
+![OpenClaw Controller — main window and menu bar popover](assets/screenshot.png)
 
 ## Requirements
 
