@@ -21,11 +21,22 @@ final class GatewayController: ObservableObject {
     @Published var sessionCount: Int = 0
     @Published var lastAction: String = "Idle"
 
+    private var refreshTimer: Timer?
+
     init(settings: AppSettings) {
         self.settings = settings
         refreshSessionCount()
         log("OpenClaw Controller ready", level: .success)
         log("Sessions: \(settings.resolvedSessionsPath)", level: .info)
+        startAutoRefresh()
+    }
+
+    private func startAutoRefresh() {
+        refreshTimer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in
+            Task { @MainActor [weak self] in
+                self?.refreshSessionCount()
+            }
+        }
     }
 
     func refreshSessionCount() {
